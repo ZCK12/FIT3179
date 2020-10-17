@@ -1,138 +1,138 @@
-Country,Total Medals
-China,993
-Denmark,597
-Netherlands,1040
-United States of America,5637
-Finland,900
-Norway,1033
-Romania,653
-Estonia,50
-France,1777
-Morocco,23
-Spain,489
-Egypt,27
-Iran,68
-Bulgaria,342
-Italy,1637
-Chad,0
-Azerbaijan,44
-Sudan,1
-Russia,3947
-Argentina,274
-Cuba,409
-Belarus,139
-Greece,255
-Cameroon,22
-Turkey,95
-Chile,32
-Mexico,110
-Nicaragua,0
-Hungary,1135
-Nigeria,99
-Algeria,17
-Kuwait,2
-Bahrain,3
-Pakistan,121
-Iraq,1
-Syria,5
-Lebanon,4
-Qatar,5
-Malaysia,16
-Germany,3756
-Canada,1352
-Ireland,35
-Australia,1349
-South Africa,131
-Eritrea,1
-Tanzania,2
-Jordan,1
-Tunisia,13
-Libya,0
-Belgium,468
-Djibouti,1
-Palestine,0
-Comoros,0
-Kazakhstan,77
-Brunei,0
-India,197
-Saudi Arabia,6
-Maldives,0
-Ethiopia,53
-United Arab Emirates,2
-Yemen,0
-Indonesia,41
-Philippines,10
-Singapore,9
-Uzbekistan,34
-Kyrgyzstan,3
-Tajikistan,4
-Japan,913
-Republic of Congo,0
-Switzerland,691
-Brazil,475
-Monaco,1
-Israel,9
-Uruguay,63
-Sweden,1536
-Virgin Islands,1
-Sri Lanka,2
-Armenia,16
-Ivory Coast,3
-Kenya,106
-Benin,0
-Ukraine,199
-United Kingdom,2068
-Ghana,23
-Somalia,0
-Latvia,35
-Niger,2
-Mali,0
-Afghanistan,2
-Poland,565
-Costa Rica,4
-Panama,3
-Georgia,32
-Slovenia,48
-Croatia,149
-Guyana,1
-New Zealand,228
-Portugal,41
-Paraguay,17
-Angola,0
-Venezuela,15
-Colombia,28
-Bangladesh,0
-Peru,15
-El Salvador,0
-Puerto Rico,9
-Uganda,7
-Honduras,0
-Ecuador,2
-Turkmenistan,0
-Mauritius,1
-Seychelles,0
-Czech Republic,644
-Luxembourg,8
-Mauritania,0
-Saint Kitts,0
-Trinidad,37
-Dominican Republic,7
-Saint Vincent,0
-Jamaica,157
-Liberia,0
-Suriname,2
-Nepal,1
-Mongolia,26
-Austria,450
-Palau,0
-Lithuania,61
-Togo,1
-Namibia,4
-Curacao,1
-Iceland,17
-American Samoa,0
-Samoa,0
-Rwanda,0
+Country,Total Medals,Population
+China,993,1439323774
+Denmark,597,5792203
+Netherlands,1040,17134873
+United States of America,5637,331002647
+Finland,900,5540718
+Norway,1033,5421242
+Romania,653,19237682
+Estonia,50,1326539
+France,1777,65273512
+Morocco,23,36910558
+Spain,489,46754783
+Egypt,27,102334403
+Iran,68,83992953
+Bulgaria,342,6948445
+Italy,1637,60461828
+Chad,0,16425859
+Azerbaijan,44,10139175
+Sudan,1,43849269
+Russia,3947,145934460
+Argentina,274,45195777
+Cuba,409,11326616
+Belarus,139,9449321
+Greece,255,10423056
+Cameroon,22,26545864
+Turkey,95,84339067
+Chile,32,19116209
+Mexico,110,128932753
+Nicaragua,0,6624554
+Hungary,1135,9660350
+Nigeria,99,206139587
+Algeria,17,43851043
+Kuwait,2,4270563
+Bahrain,3,1701583
+Pakistan,121,220892331
+Iraq,1,40222503
+Syria,5,17500657
+Lebanon,4,6825442
+Qatar,5,2881060
+Malaysia,16,32365998
+Germany,3756,83783945
+Canada,1352,37742157
+Ireland,35,4937796
+Australia,1349,25499881
+South Africa,131,59308690
+Eritrea,1,3546427
+Tanzania,2,56320000
+Jordan,1,10203140
+Tunisia,13,11818618
+Libya,0,6871287
+Belgium,468,11589616
+Djibouti,1,988002
+Palestine,0,4569000
+Comoros,0,869595
+Kazakhstan,77,18776707
+Brunei,0,437479
+India,197,1380004385
+Saudi Arabia,6,34813867
+Maldives,0,540542
+Ethiopia,53,114963583
+United Arab Emirates,2,9890400
+Yemen,0,29825968
+Indonesia,41,273523621
+Philippines,10,109581085
+Singapore,9,5850343
+Uzbekistan,34,33469199
+Kyrgyzstan,3,6524191
+Tajikistan,4,9537642
+Japan,913,126476458
+Republic of Congo,0,5518092
+Switzerland,691,8654618
+Brazil,475,212559409
+Monaco,1,39244
+Israel,9,8655541
+Uruguay,63,3473727
+Sweden,1536,10099270
+Virgin Islands,1,106977
+Sri Lanka,2,21413250
+Armenia,16,2963234
+Ivory Coast,3,25070000
+Kenya,106,53771300
+Benin,0,12123198
+Ukraine,199,43733759
+United Kingdom,2068,67886004
+Ghana,23,31072945
+Somalia,0,15893219
+Latvia,35,1886202
+Niger,2,24206636
+Mali,0,20250834
+Afghanistan,2,38928341
+Poland,565,37846605
+Costa Rica,4,5094114
+Panama,3,4314768
+Georgia,32,3989175
+Slovenia,48,2078932
+Croatia,149,4105268
+Guyana,1,786559
+New Zealand,228,4822233
+Portugal,41,10196707
+Paraguay,17,7132530
+Angola,0,32866268
+Venezuela,15,28435943
+Colombia,28,50882884
+Bangladesh,0,164689383
+Peru,15,32971846
+El Salvador,0,6486201
+Puerto Rico,9,3194000
+Uganda,7,45741000
+Honduras,0,9904608
+Ecuador,2,17643060
+Turkmenistan,0,5851000
+Mauritius,1,1265000
+Seychelles,0,96762
+Czech Republic,644,10708982
+Luxembourg,8,625976
+Mauritania,0,4649660
+Saint Kitts,0,53192
+Trinidad,37,1399491
+Dominican Republic,7,10847904
+Saint Vincent,0,110947
+Jamaica,157,2961161
+Liberia,0,5057677
+Suriname,2,586634
+Nepal,1,29136808
+Mongolia,26,3278292
+Austria,450,9006400
+Palau,0,17907
+Lithuania,61,2722291
+Togo,1,8278737
+Namibia,4,2540916
+Curacao,1,159849
+Iceland,17,341250
+American Samoa,0,55465
+Samoa,0,196130
+Rwanda,0,12952209
 Dominica,0
 Haiti,7
 Malta,0
