@@ -35,7 +35,7 @@
           "type": "quantitative",
           "scale": {
             "type": "symlog",
-            "domain": [0, 20],
+            "domain": [0, 10],
             "range": ["#f0efeb", "#ffcc00"]
           }
         },
