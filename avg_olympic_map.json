@@ -26,7 +26,7 @@
             "fields": ["avg_norm_medals"]
           }
         },
-        {"calculate": "datum.avg_norm_medals * 2", "as": "Medals per Million"}
+        {"calculate": "datum.avg_norm_medals * 1", "as": "Medals per Million"}
       ],
       "mark": {"type": "geoshape", "stroke": "grey", "strokeWidth": 0.2},
       "encoding": {
