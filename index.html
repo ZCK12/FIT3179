@@ -69,6 +69,7 @@ p{color: black;font-family:arial;font-size:18px;}
 	
 <div id="three-center">
 	<div id="left_box">
+		<div id="vis3"></div>
 	</div>
 	<div id="left_box">
 		<p>On the left we have a simple log-log scatter plot that compares the normalised average medals won for each country against their GDP per capita. We can see a clear trend here, which leads us to believe that countries which perform poorly in the Olympics may do so because of economic reasons.</p>
@@ -91,8 +92,13 @@ p{color: black;font-family:arial;font-size:18px;}
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  var spec2 = "https://zck12.github.io/FIT3179/medals_gdp_scatter.json";
-  vegaEmbed('#vis3', spec2).then(function(result) {
+  var spec3 = "https://zck12.github.io/FIT3179/medals_gdp_scatter.json";
+  vegaEmbed('#vis3', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+	
+  var spec4 = "https://zck12.github.io/FIT3179/continent_breakdown.json";
+  vegaEmbed('#vis4', spec4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 	
