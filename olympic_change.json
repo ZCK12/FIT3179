@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Percentage Increase in Olympic Medals Won in 2014 - 2016 Over Historical Country Average",
+  "width": 800,
+  "height": 600,
+  "layer": [
+    {
+      "projection": {"type": "equalEarth"},
+      "data": {"graticule": {"step": [15, 15]}},
+      "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.1}
+    },
+    {
+      "projection": {"type": "equalEarth"},
+      "data": {
+        "url": "https://raw.githubusercontent.com/ZCK12/FIT3179/main/map.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/ZCK12/FIT3179/main/final_olympic_norm_avg.csv"
+            },
+            "key": "country",
+            "fields": ["percent_change"]
+          }
+        },
+        {"calculate": "datum.percent_change", "as": "Percentage Change"},
+        {"calculate": "datum.percent_change/100", "as": "pcc"}
+      ],
+      "mark": {"type": "geoshape", "stroke": "grey", "strokeWidth": 0.2},
+      "encoding": {
+        "color": {
+          "field": "Percentage Change",
+          "type": "quantitative",
+          "scale": {
+            "type": "linear",
+            "domain": [0, 150],
+            "range": ["#deded5", "#ffe100"]
+          }
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {
+            "field": "pcc",
+            "type": "quantitative",
+            "title": "Percentage Change",
+            "format": ".0%"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
