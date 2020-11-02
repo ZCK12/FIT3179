@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 250,
+  "width": 225,
   "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/ZCK12/FIT3179/main/yearly_medals_continent_sum.csv"
