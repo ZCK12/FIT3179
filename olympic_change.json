@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Percentage Increase in Olympic Medals Won in 2014 - 2016 Over Historical Country Average",
-  "width": 800,
-  "height": 600,
+  "width": 720,
+  "height": 500,
   "layer": [
     {
       "projection": {"type": "equalEarth"},
