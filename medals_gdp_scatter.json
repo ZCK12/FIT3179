@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Medals per Million vs GDP Per Capita with Loess Regression",
-  "width": 300,
+  "width": 250,
   "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/ZCK12/FIT3179/main/country_gdp_medals.csv"
