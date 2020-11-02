@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Average Olympic Medals per 1,000,000 Population by Country 1960 - 2020",
-  "width": 800,
-  "height": 600,
+  "width": 1200,
+  "height": 650,
   "layer": [
     {
       "projection": {"type": "equalEarth"},
