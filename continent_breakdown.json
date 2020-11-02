@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 300,
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ZCK12/FIT3179/main/yearly_medals_continent_sum.csv"
+  },
+  "mark": "area",
+  "title": "Breakdown of Olympic Medals Awarded",
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "year",
+      "axis": {"format": "%Y"},
+      "title": "Year"
+    },
+    "y": {"aggregate": "sum", "field": "medals", "title": "Medals Awarded"},
+    "color": {
+      "field": "continent",
+      "scale": {"scheme": "tableau20"},
+      "title": "Recipiant Continent"
+    }
+  },
+  "config": {}
+}
