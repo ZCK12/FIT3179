@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Medals per Million vs GDP Per Capita with Loess Regression",
+  "width": 400,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ZCK12/FIT3179/main/country_gdp_medals.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true, "size": 60},
+      "encoding": {
+        "x": {
+          "field": "gdppc",
+          "type": "quantitative",
+          "scale": {
+            "clamp": true,
+            "type": "log",
+            "base": 10,
+            "domain": [500, 60000],
+            "nice": false
+          },
+          "title": "GDP Per Capita (US$)",
+          "axis": {"tickCount": 6}
+        },
+        "y": {
+          "field": "norm_medals",
+          "type": "quantitative",
+          "scale": {"clamp": true, "type": "log", "domain": [0.01, 80]},
+          "title": "Medals per Million Population"
+        },
+        "color": {
+          "field": "continent",
+          "type": "nominal",
+          "title": "Continent"
+        },
+        "tooltip": [
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {
+            "field": "gdppc",
+            "type": "quantitative",
+            "title": "GDP Per Capita",
+            "format": "$"
+          },
+          {
+            "field": "norm_medals",
+            "type": "quantitative",
+            "title": "Medals per Million"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "darkred"},
+      "transform": [{"loess": "norm_medals", "on": "gdppc"}],
+      "encoding": {
+        "x": {"field": "gdppc", "type": "quantitative"},
+        "y": {"field": "norm_medals", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {}
+}
