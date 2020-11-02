@@ -75,7 +75,7 @@ p{color: black;font-family:arial;font-size:18px;}
 		
 		<p>On the right we can clearly see that the Olympic games are growing rapidly, with more and mroe medals being awarded each year, meaning there is no excuse for minor countries around the world being under represented.</p>
 	</div>
-	<div id="left_box">
+	<div id="right_box">
 	</div>	
 </div>
   
@@ -91,6 +91,11 @@ p{color: black;font-family:arial;font-size:18px;}
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
+  var spec2 = "https://zck12.github.io/FIT3179/medals_gdp_scatter.json";
+  vegaEmbed('#vis3', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+	
 </script>
 </body>
 </html>
